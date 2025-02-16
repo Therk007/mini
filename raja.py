@@ -139,7 +139,7 @@ def handle_attack(message):
         bot.reply_to(message, "🚫 **𝐌𝐀𝐗 𝐃𝐔𝐑𝐀𝐓𝐈𝐎𝐍 = 𝟏8𝟎𝐬!**")
         return
 
-    full_command = f"./pushpa {target} {port} {time_duration} 900"
+    full_command = f"./raazz {target} {port} {time_duration} 700"
     random_image = random.choice(image_urls)
 
     bot.send_photo(message.chat.id, random_image, 
